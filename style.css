@@ -85,3 +85,27 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
  * Measure..............The width of a line of text, in characters.
  */
 
+ /* Variables */
+ /* Det har kanske ingen effekt att ändra dessa varibler då de redan har använts...
+ :root {
+    /* Spacing 
+    --global--spacing-unit: 20px;
+    --global--spacing-measure: unset;
+    --global--spacing-horizontal: 10px;
+    --global--spacing-vertical: 15px;
+ }
+ */
+
+ header {
+     max-height: 35vh;
+ }
+ h1{
+    font-size: xx-large !important;
+ }
+ figure.carousel{
+    display: none;
+}
+.carousel img{
+	max-height: auto;
+    width: auto;
+}
